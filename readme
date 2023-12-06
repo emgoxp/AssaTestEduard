@@ -1,0 +1,8 @@
+comando para ejecutar el docket compose: docker-compose up --build -d
+
+comando para ejecutar pruebas : dotnet test --collect:"XPlat Code Coverage" --settings coverlet.runsettings
+
+nota: para generar el reporte se ejecuta el comando reportgenerator "-reports:coverage.cobertura.xml" "-targetdir:coverage-report" "-reporttypes:Html;Cobertura"
+pero antes tenemos que sacar el archivo coverage.cobertura.xml a la raiz del proyecto de xunit 
+
+gracias
