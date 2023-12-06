@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1" branch-rate="1" lines-covered="24" lines-valid="24" branches-covered="0" branches-valid="0" complexity="9" version="0" timestamp="1701862696">
+  <sources>
+    <source>C:\Users\EduardMiguelGarciaOb\Desktop\Assatest\AssaTest\</source>
+  </sources>
+  <packages>
+    <package name="AssaTest.Application" line-rate="1" branch-rate="1" complexity="2">
+      <classes>
+        <class name="AssaTest.Application.Controllers.CarBrandController" filename="C:\Users\EduardMiguelGarciaOb\Desktop\Assatest\AssaTest\AssaTest.Application\Controllers\CarBrandController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Get" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(AssaTest.Infrastruture.Contexts.AppAssaContext)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="AssaTest.Domain" line-rate="1" branch-rate="1" complexity="4">
+      <classes>
+        <class name="AssaTest.Domain.CarBrand" filename="C:\Users\EduardMiguelGarciaOb\Desktop\Assatest\AssaTest\AssaTest.Domain\CarBrand.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Year" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="6" branch="false" />
+            <line number="12" hits="6" branch="false" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="6" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="AssaTest.Infrastruture" line-rate="1" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AssaTest.Infrastruture.Contexts.AppAssaContext" filename="C:\Users\EduardMiguelGarciaOb\Desktop\Assatest\AssaTest\AssaTest.Infrastruture\Contexts\AppAssaContext.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_CarBrands" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;AssaTest.Infrastruture.Contexts.AppAssaContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="2" branch="false" />
+                <line number="9" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="2" branch="false" />
+            <line number="9" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="4" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

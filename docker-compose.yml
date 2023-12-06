@@ -1,0 +1,24 @@
+﻿version: '3'
+
+services:
+  postgres:
+    image: test-assa-postgres-image
+    build:
+        context: /AssaTest.Infrastruture 
+    ports:
+      - "5432:5432"
+    container_name: test-assa-postgres-container
+    environment:
+      POSTGRES_DB: testAssa
+      POSTGRES_USER: Eduard
+      POSTGRES_PASSWORD: Eduard!
+  myapi:
+    image: test-assa-api-image  
+    build:
+        context: .
+        dockerfile: AssaTest.Application/Dockerfile
+    ports:
+        - "5000:80"
+    container_name: test-assa-api-container
+    depends_on:
+        - postgres
